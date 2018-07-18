@@ -12,14 +12,17 @@
     background-image: url('images/revo.jpg');
     background-size: cover;
 }
-.imgIco{
+.centerH{
     position: relative;
-    align-items: center;
+    width: 11.4%;
+    top: 20px;
 
 }
-.FS{
+.imgIco{
     position: relative;
-    text-align: center;
+}
+.FS{
+    position: absolute;
     color: thistle;
 }
 .botonContacto{
