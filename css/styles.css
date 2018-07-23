@@ -16,10 +16,10 @@
     position: relative;
     width: 11.4%;
     top: 20px;
-
 }
 .imgIco{
-    position: relative;
+    position: absolute;
+    align-items: center;
 }
 .FS{
     position: absolute;
