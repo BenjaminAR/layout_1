@@ -14,22 +14,22 @@
 }
 .centerH{
     position: relative;
-    width: 11.4%;
+    width: 170px;
     top: 20px;
 }
 .imgIco{
-    position: absolute;
+
     align-items: center;
 }
 .FS{
-    position: absolute;
+
     color: thistle;
 }
 .botonContacto{
-    position: absolute;
+    position: relative;
     padding: 5px 10px;
     background-color: transparent;
-    margin-top: 30px;
+
     margin-left: 90%;
     font-size: 12pt;
     color: thistle;
@@ -67,20 +67,19 @@
     
 }
 .barraRed{
-    position: relative;
-    float: right;
+    position: fixed;
+    right: 0;
     z-index: 20;
     margin-top: 0;
     margin-bottom: 0; 
-    width: 2%;
-    height: 254%;
-    background-color: red;
+    width: 27px;
+    height: 100%;
+    background-color:rgb(231, 95, 95);
     writing-mode: vertical-lr;
     transform: rotate(180deg);
 }
 .barraRedT{
-margin-top: 1250px;
-margin-left: 3px;
+margin-left: 5px;
 color: white;
 text-align: center;
 }
@@ -142,6 +141,37 @@ text-align: center;
     width: 25%;
     height: 190px;
     padding: 5%;
+}
+.fooDad{
+    position: relative;
+    width: 98%;
+    height: 80px;
+    background: rgb(61, 60, 55);
+    color: grey;
+    margin-top: 155px;
+
+    
+}
+.foo1{
+    text-align: center;
+    padding-top: 30px;
+    height: 80px;
+    width: 20%;
+    float: left;
+
+}
+.foo2{
+    float: right;
+    height: 80px;
+    width: 80%;
+
+}
+.foo2 li{
+    padding-top: 30px;
+    margin-left: 80px;
+    display: inline-block;
+    box-sizing: border-box;
+
 }
 @media screen and (max-width: 450px){
     
