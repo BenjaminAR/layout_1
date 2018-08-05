@@ -142,8 +142,6 @@ text-align: center;
     background: rgb(61, 60, 55);
     color: grey;
     margin-top: 155px;
-
-    
 }
 .foo1{
     text-align: center;
@@ -151,7 +149,6 @@ text-align: center;
     height: 80px;
     width: 20%;
     float: left;
-
 }
 .foo2{
     float: right;
@@ -164,7 +161,6 @@ text-align: center;
     margin-left: 80px;
     display: inline-block;
     box-sizing: border-box;
-
 }
 @media screen and (max-width: 450px){
     
@@ -212,7 +208,7 @@ text-align: center;
     .cuadroTra{
         width: 97%;
         height: 120px;
-        top: -70px;
+        top: -150px;
         font-size: 150%;
         text-align: center;
     }
@@ -220,7 +216,7 @@ text-align: center;
         position: absolute;
         width: 94%;
         height: 120px;
-        top: 60px;
+        top: -30px;
         padding:2%;
     }
     .botonContacto{
