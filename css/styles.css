@@ -212,16 +212,19 @@ text-align: center;
     .cuadroTra{
         width: 97%;
         height: 120px;
-        top: -250px;
-
+        top: -70px;
         font-size: 150%;
         text-align: center;
     }
     .cuadroBlanco{
-        float: none;
+        position: absolute;
         width: 94%;
         height: 120px;
-        top: -200px;
+        top: 60px;
         padding:2%;
+    }
+    .botonContacto{
+        top: -80px;
+        margin-left: 35%;
     }
 }
