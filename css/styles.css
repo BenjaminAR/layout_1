@@ -7,7 +7,7 @@
 }   
 .city{
     position: relative;
-    width: 98%;
+    width: 100%;
     height: 700px;
     background-image: url('images/revo.jpg');
     background-size: cover;
@@ -15,21 +15,16 @@
 .centerH{
     position: relative;
     width: 170px;
-    top: 20px;
-}
-.imgIco{
-
-    align-items: center;
+    top: 30px;
 }
 .FS{
-
     color: thistle;
 }
 .botonContacto{
+    top: -70px;
     position: relative;
     padding: 5px 10px;
     background-color: transparent;
-
     margin-left: 90%;
     font-size: 12pt;
     color: thistle;
@@ -43,7 +38,7 @@
     width: 100%;
     height: 190px;
     background-color:transparent;
-    top: 230px;
+    top: 11 0px;
   }
 .cuadroBlanco{  
     float: right;
@@ -57,14 +52,12 @@
 .cuadroTra{
     position: absolute;
     background-color: transparent;
-    width: 45%;
+    width: 50%;
     height: 190px;
     text-align: end;
     padding: 2.3%;
-
     font-size: 200%;
     color: white;
-    
 }
 .barraRed{
     position: fixed;
@@ -74,7 +67,7 @@
     margin-bottom: 0; 
     width: 27px;
     height: 100%;
-    background-color:rgb(231, 95, 95);
+    background-color:rgb(228, 55, 55);
     writing-mode: vertical-lr;
     transform: rotate(180deg);
 }
@@ -85,7 +78,7 @@ text-align: center;
 }
 .sectionTwo{
     position: absolute;
-    width: 49%;
+    width: 50%;
     height: 390px;
     text-align: justify;
     padding: 4.5%;
@@ -96,14 +89,14 @@ text-align: center;
 }
 .sectionTre{
     position: relative;
-    width: 49%;
+    width: 50%;
     height: 390px;
     background: rgb(61, 60, 55);
     float: right;
 }
 .caja{
     width: 80%;
-    margin-left: 13%;
+    margin-left: 10.5%;
     margin-top: 70px;
   }
   .caja li{
@@ -144,7 +137,7 @@ text-align: center;
 }
 .fooDad{
     position: relative;
-    width: 98%;
+    width: 100%;
     height: 80px;
     background: rgb(61, 60, 55);
     color: grey;
@@ -167,7 +160,7 @@ text-align: center;
 
 }
 .foo2 li{
-    padding-top: 30px;
+    padding-top: 33px;
     margin-left: 80px;
     display: inline-block;
     box-sizing: border-box;
@@ -191,9 +184,44 @@ text-align: center;
     .li1{
         display: none;
     }   
+    .fooDad{
+        height: 220px;
+
+    }
 }
 @media screen and (max-width: 884px){
     .li2{
         display: none;
     }   
+    .caja li{
+        width: 140px;
+        height: 120px;
+        margin-left: -12px;
+        display: inline-block;
+        box-sizing: border-box;
+      }
+    .cuadroBlanco2{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 510px){
+    .fooDad{
+        height: 320px;
+
+    }
+    .cuadroTra{
+        width: 97%;
+        height: 120px;
+        top: -250px;
+
+        font-size: 150%;
+        text-align: center;
+    }
+    .cuadroBlanco{
+        float: none;
+        width: 94%;
+        height: 120px;
+        top: -200px;
+        padding:2%;
+    }
 }
